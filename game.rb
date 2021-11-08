@@ -17,7 +17,6 @@ class Game
 			player = get_current_player
 			puts "#{player.name}: What does #{question.first_val} + #{question.second_val} equal?"
 			answer = gets.chomp
-			# puts "#{player.name} responded with #{answer}"
 			check_response(answer, question.answer)
 		end
 	end
